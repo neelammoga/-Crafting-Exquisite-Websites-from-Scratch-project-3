@@ -1,0 +1,146 @@
+@media screen and (max-width: 991px) {
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .main-nav{
+        overflow: initial;
+    }
+
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2 ease-in-out;
+    }
+
+    .nav-links.active{
+        left: 0;   
+    }
+
+    .nav-links ul{
+        flex-direction: column;
+
+    }
+
+    .examples-area {
+        gap: 20px;
+    }
+
+    .example-card {
+        width: calc(50% - 10px);
+    }
+
+    .features-area {
+        gap: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .header-left {
+        max-width: 87vw;
+        padding-left: 20px;
+    }
+
+    .primary-button {
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .big-feature-container {
+        flex-direction: column;
+    }
+
+
+    .examples-heading-text {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .feature-desc {
+        align-items: flex-start;
+    }
+
+    .features-card {
+        min-width: calc(50% - 10px);
+
+    }
+
+    .big-feature-container1 {
+        flex-direction: column;
+    }
+
+    .big-feature-container2 {
+        flex-direction: column;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .link-columns {
+        align-items: stretch;
+    }
+
+}
+
+
+
+@media screen and (max-width: 479px) {
+
+    :root {
+        --padding-inline-section: 10px;
+
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+        }
+
+        p{
+            font-size: 1rem;
+        }
+    
+    }
+
+
+    .features-card {
+        min-width:100%;
+
+    }
+
+    .example-card {
+        width: 100%
+    }
+
+
+
+}
